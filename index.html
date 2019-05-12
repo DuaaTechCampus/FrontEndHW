@@ -4,35 +4,46 @@
         <title>Techcampus</title>
     </head>
     <body>
-        <h1 style="color:red">Welcome to Techcampus Courses</h1>
+        <img src="img/techcampus1.png" alt="techcampus1"><br>
+        <h1 style="color:red; text-align: center">Welcome to Techcampus Courses</h1>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/MvTSPwftvyo?controls=1" frameborder="0"></iframe>
+        
+        <table border="1">
+                <tr>
+                    <td colspan="5" align="center">Courses Time Table</td>
+                </tr>
+                <tr>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuseday</th>
+                    <th>Wednesday</th>
+                    <th>Thrusday</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td></td>
+                    <td>Python</td>
+                    <td></td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Hybrid</td>
+                    <td>Agile</td>
+                    <td>Hybrid</td>
+                    <td></td>
+                </tr>
+            </table><br>
         <form>
             <input type="text" name="firstname" placeholder="First Name">
-            <input type="text" name="lastname" placeholder="Last Name">
-            <input type="submit" value="Sign in"><br>
-            <label>Gender: </label><br>
-            <input type="radio" name="gender" value="male">Male<br>
-            <input type="radio" name="gender" value="female">Female<br>
+            <input type="text" name="lastname" placeholder="Last Name"><br>
+            <input type="email" name="email" placeholder="Email"><br>
+            <label>Courses: </label><br>
+            <input type="radio" name="course" value="pyhton">Python<br>
+            <input type="radio" name="course" value="agile">Agile<br>
+            <input type="radio" name="course" value="hybrid">Hybrid<br>
+            <textarea name="comment" rows="10" cols="40" placeholder="Comment"></textarea><br>
+            <input type="submit" value="Register"><br>
         </form><br>
-        <table border="1">
-            <tr>
-                <td colspan="5" align="center">Courses Time Table</td>
-            </tr>
-            <tr>
-                <th>Sunday</th>
-                <th>Monday</th>
-                <th>Tuseday</th>
-                <th>Wednesday</th>
-                <th>Thrusday</th>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td></td>
-                <td>Python</td>
-                <td></td>
-                <td>Python</td>
-            </tr>
-        </table><br>
-        <textarea name="comment" rows="15" cols="60" placeholder="Comment"></textarea><br>
-        <input type="submit" value="Send"><br>
     </body>
 </html>
